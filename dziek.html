@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+h1{
+font-size:50px;
+}
+b{
+font-size:40px;
+}
+p{
+font-size:30px;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  padding: 10px;
+
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img{
+margin-top:300px;
+}
+body{
+background-color:#b0c2e1;
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="row">
+  <div class="column left" >
+    <img src="man.png" alt="biznesmen" width="200" height="300">
+  </div>
+  <div class="column middle" >
+<center><h1>Dziękujemy za uwagę!</h1>
+
+<b>Autorzy projektu:</b><br><br><br>
+<p>
+Wiktor Polak<br><br>
+Adrian Nosiński<br><br>
+Magdalena Bobrowska<br><br>
+Wanda Wolska</p></center>
+  </div>
+  <div class="column right" >
+     <img src="men.png" alt="biznesmen" width="250" height="300">
+  </div>
+</div>
+
+</body>
+</html>
